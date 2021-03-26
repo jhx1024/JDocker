@@ -6,5 +6,5 @@ FROM java:8
 # 作者
 MAINTAINER xz <xz@gmail.com>
 VOLUME /tmp
-ADD demo01-0.0.1-SNAPSHOT.jar JDocker.jar
+ADD JDocker-0.0.1-SNAPSHOT.jar JDocker.jar
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/JDocker.jar"]
