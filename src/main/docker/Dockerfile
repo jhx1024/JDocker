@@ -2,7 +2,7 @@
 # VERSION 0.0.1
 # Author: eangulee
 # 基础镜像使用java
-FROM fabric8/java-alpine-openjdk8-jdk
+FROM java:8
 # 作者
 MAINTAINER xz <xz@gmail.com>
 VOLUME /tmp
