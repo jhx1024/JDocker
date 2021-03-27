@@ -10,7 +10,7 @@ public class DemoController {
     public String demo()
 
     {
-        return " this is jenkins+docker+github Test  version=1";
+        return "{ this is jenkins+docker+github Test  version=1}";
     }
 
 }
