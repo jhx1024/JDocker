@@ -8,8 +8,9 @@ public class DemoController {
 
     @GetMapping("/demo")
     public String demo()
+
     {
-        return "000";
+        return "this is jenkins+docker+github Test";
     }
 
 }
